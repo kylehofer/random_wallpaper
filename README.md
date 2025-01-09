@@ -3,8 +3,8 @@
 Requires opencv and gtkmm
 
 ## Description
-A simple application for creating random wallpaper collages for use with Ubuntu. Uses xrandr to calculate the number, positions and resolutions of screens. 
-Uses opencv to crop and zoom images to fit screens it will be displayed on, and gtkmm for changing gsettings.
+A simple application for creating random wallpaper collages for use with Ubuntu. Tested and ran on Ubuntu 24.10.
+Uses xrandr to calculate the number, positions and resolutions of screens, opencv to crop and zoom images to fit screens it will be displayed on, and gtkmm for changing gsettings.
 
 ## Usage
 random_wallpaper /path/to/wallpaper/folder [time]
