@@ -1,0 +1,9 @@
+[Unit]
+Description=Random Wallpaper Service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/random_wallpaper /dir/to/wallpapers [time]
+
+[Install]
+WantedBy=graphical.target
